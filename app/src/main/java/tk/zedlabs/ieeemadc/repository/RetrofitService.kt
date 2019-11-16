@@ -1,4 +1,4 @@
-package tk.zedlabs.ieeemadc
+package tk.zedlabs.ieeemadc.repository
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

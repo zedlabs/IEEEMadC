@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="good">#04E474</color>
+    <color name="moderate">#FCCC04</color>
+    <color name="unhealthySensitive">#FC5C04</color>
+    <color name="unhealthy">#D82942</color>
+    <color name="veryUnhealthy">#BC329D</color>
+    <color name="hazardous">#840424</color>
 </resources>

@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
 import kotlinx.coroutines.Dispatchers
-import tk.zedlabs.ieeemadc.model.Data
 import tk.zedlabs.ieeemadc.model.Status
+import tk.zedlabs.ieeemadc.repository.Repository
 
 
 class MainActivityViewModel : ViewModel() {
