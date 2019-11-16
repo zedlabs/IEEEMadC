@@ -28,12 +28,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showData() {
-        var aqi : Int = -1
+        var aqi : Int
         viewModel.data.observe(this, Observer {
             aqi = it.data?.aqi!!
             aqi_text.text = aqi.toString()
+            location_text.text = it.data!!.city!!.name.toString()
+            setupUi(aqi)
         })
-        setupUi(aqi)
     }
 
     private fun setupUi(aqi: Int) {
